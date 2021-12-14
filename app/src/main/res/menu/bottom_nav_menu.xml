@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_resultados"
+        android:icon="@drawable/ic_barra"
+        android:title="@string/resultados" />
+
+    <item
+        android:id="@+id/navigation_salud"
+        android:icon="@drawable/ic_heart"
+        android:title="@string/salud" />
+</menu>

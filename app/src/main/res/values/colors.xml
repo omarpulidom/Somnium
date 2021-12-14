@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name = "azul_1">#07091D</color>
+    <color name = "azul_2">#101339</color>
+    <color name = "morado1">#25135F</color>
+    <color name = "chart">#3E476E</color>
+
+    <color name ="deg1">#FBB997</color>
+    <color name ="deg2">#BE6B6B</color>
+    <color name="deg3">#94A3C3</color>
+    <color name="deg4">#4B608B</color>
+    <color name="verde">#878714</color>
+    <color name="gris">#E4E4E4</color>
+    <color name="graf1">#FBB997</color>
+    <color name="graf2">#25135F</color>
+    <color name="graf3">#1B225D</color>
+    <color name="cshape1">#93A2C2</color>
+    <color name="cshape2">#6B8DD6</color>
+    <color name="cshape3">#1F235B</color>
+</resources>

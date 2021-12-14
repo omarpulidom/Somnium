@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Somnium</string>
+    <string name="salud">Salud</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="desc">Somnium te ayudará a visualizar la mejora en tu calidad de sueño.</string>
+    <string name="somnium">Somnium</string>
+    <string name="resultados">Resultados</string>
+    <string name="empezar">Empezar</string>
+    <string name="detener">Detener</string>
+    <string name="desc2">La aplicacion esta registrando los datos</string>
+    <string name="registrando">Registrando...</string>
+    <string name="pulso_cardiaco">Pulso Cardiaco</string>
+
+    <string name="circle">Circle</string>
+    <string name="disminucion">DISMINUCION</string>
+    <string name="ronquidos">RONQUIDOS</string>
+    <string name="hora">00:00</string>
+    <string name="promedio">PROMEDIO</string>
+    <string name="normal_title">Todo parece estar normal</string>
+    <string name="normal_desc">Tus signos se encuentran en un buen rango</string>
+    <string name="anormal_title">Resultados no satisfactorios</string>
+    <string name="anormal_desc">Sugerimos acudir con un medico</string>
+    <string name="reporte_semanal">REPORTE SEMANAL</string>
+    <string name="tiempo_durmiendo">Tiempo durmiendo</string>
+    <string name="tiempo_roncando">Tiempo roncando</string>
+    <string name="_00_h_00_min">00 h 00 min</string>
+    <string name="porcentaje">0%</string>
+    <string name="saturacion_de_oxigeno">Saturacion de oxigeno</string>
+    <string name="empezar_escaneo">Empezar escaneo</string>
+</resources>
