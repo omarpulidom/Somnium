@@ -1,5 +1,6 @@
 package com.example.somniumv4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -18,7 +19,7 @@ class StatsActivity : AppCompatActivity() {
 
         arrayVacio.add("00 00 0")
 
-        val mediciones = intent.getSerializableExtra("mediciones") as ArrayList<String>
+        val mediciones:ArrayList<String> = intent.getSerializableExtra("mediciones") as ArrayList<String>
 
         ////////////////////////////////////////////////////////////////////////////////////////////
         // Parses the date
@@ -56,6 +57,11 @@ class StatsActivity : AppCompatActivity() {
             true
         }
 
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this, MainActivity::class.java))
     }
 
     private fun makeCurrentFragment(fragment: Fragment) {
