@@ -52,10 +52,22 @@ class ResultadosFragment(hInicial: String, hFinal: String) : Fragment() {
         val yesterday = LocalDate.now().minusDays(1).dayOfWeek.name
         val medicionesAyer = PrefConfig.readListFromPref(context, yesterday)
 
-        val pDisminucion =
-            getPorcentajeRonquidos(medicionesAyer) - getPorcentajeRonquidos(mediciones)
+        var pDisminucion = 0
+
+        if (getPorcentajeRonquidos(medicionesAyer) != 0) {
+
+                pDisminucion = getPorcentajeRonquidos(medicionesAyer) - getPorcentajeRonquidos(mediciones)
+
+                if (pDisminucion <0)
+                {
+                    pDisminucion *= -1
+                    disminucion_text.text = "AUMENTO"
+                }
+
+        }
 
         porcentajeDisminacion.text = "$pDisminucion%"
+        progress_bar.progress = pDisminucion
 
         ////////////////////////////////////////////////////////////////////////////////////////////
         val dateFormat = SimpleDateFormat("yyyy/MM/dd HH:mm", Locale.getDefault())
